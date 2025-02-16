@@ -13,7 +13,7 @@ PAY_TOKEN = os.getenv('PAY_TOKEN')
 bot = Bot(token=BOT_TOKEN)
 dp = Dispatcher()
 
-web_app = WebAppInfo(url='https://neforskiy.github.io/index.html')
+web_app = WebAppInfo(url='https://neforskiy.github.io/site')
 
 keyboard = ReplyKeyboardMarkup(
     keyboard=[
